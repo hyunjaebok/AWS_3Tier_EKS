@@ -2,17 +2,12 @@
      AWS Infra 구축
      컨테이너 기반 3-Tier 웹 서비스 운영
      
-## 진행 기간
+## 📆 진행 기간
 - 2022.10.10 ~ 2022.10.14
 
 </br>
 
-## 팀 구성
-- Infra 구축 1명
-
-</br>
-
-## 사용 기술
+## 🛠 사용 기술
 #### CSP
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"> <!--AWS-->
 #### OS
@@ -32,7 +27,7 @@
 
 </br>
 
-## 담당한 업무
+## 💁‍♂️ 담당 업무
 - AWS Infra 구축
     - VPC, EC2, RDS, ALB, EKS, ECR, Route53, IAM
 - WEB/WAS/DB를 연동하여 3-Tier 구성
@@ -42,7 +37,7 @@
 
 </br>
 
-## 상세 내용 
+## 📖 상세 내용 
 ### Infra Architecture
 ![image](https://user-images.githubusercontent.com/110655823/215550928-c42b160a-0f88-411c-8297-4765c9850b4a.png)
 > - 관리자는 Local(Powershell)을 통해 k8s mgnt로 접속하여 EKS 환경에 웹 서비스를 배포 및 운영
@@ -50,7 +45,7 @@
 
 </br>
 
-## 구축 과정
+## 🔗 구축 과정
 ### - Notion Link(https://www.notion.so/AWS-EKS-3-Tier-3dd3d9a99aa842acb3212891276571c5)
 
 </br>
