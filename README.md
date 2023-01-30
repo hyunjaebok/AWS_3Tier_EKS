@@ -36,8 +36,6 @@
 > - 관리자는 Local(Powershell)을 통해 k8s mgnt로 접속하여 EKS 환경에 웹 서비스를 배포 및 운영
 > - 고객은 route53에 등록된 도메인을 통해 웹 서비스 이용
 
-### - [Terraform](https://github.com/hyunjaebok/AWS_3Tier_Terraform_Project/tree/main/Terraform)
-
 </br>
 
 ## 구축 과정
