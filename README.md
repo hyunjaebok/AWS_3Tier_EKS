@@ -32,6 +32,16 @@
 
 </br>
 
+## 담당한 업무
+- AWS Infra 구축
+    - VPC, EC2, RDS, ALB, EKS, ECR, Route53, IAM
+- WEB/WAS/DB를 연동하여 3-Tier 구성
+- Dockerfile을 작성하여, WEB/WAS를 멀티 스테이지 빌드 후 Dockerhub에 Push
+- Container Image의 이름과 태그를 변경 후 AWS ECR에 Push
+- k8s yamlfile을 작성하여, AWS EKS 환경에 웹 서비스를 배포 및 운영
+
+</br>
+
 ## 상세 내용 
 ### Infra Architecture
 ![image](https://user-images.githubusercontent.com/110655823/215550928-c42b160a-0f88-411c-8297-4765c9850b4a.png)
@@ -42,13 +52,3 @@
 
 ## 구축 과정
 ### - Notion Link(https://www.notion.so/AWS-EKS-3-Tier-3dd3d9a99aa842acb3212891276571c5)
-
-</br>
-
-## 담당한 업무
-- AWS Infra 구축
-    - VPC, EC2, RDS, ALB, EKS, ECR, Route53, IAM
-- WEB/WAS/DB를 연동하여 3-Tier 구성
-- Dockerfile을 작성하여, WEB/WAS를 멀티 스테이지 빌드 후 Dockerhub에 Push
-- Container Image의 이름과 태그를 변경 후 AWS ECR에 Push
-- k8s yamlfile을 작성하여, AWS EKS 환경에 웹 서비스를 배포 및 운영
