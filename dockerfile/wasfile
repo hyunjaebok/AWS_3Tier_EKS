@@ -1,0 +1,9 @@
+FROM openjdk:18-jdk-alpine AS awesome #빌드 이미지
+ADD spring-petclinic.tar / 
+WORKDIR  /spring-petclinic 
+RUN ./mvnw spring-javaformat:apply
+RUN ./mvnw package # target 밑에 jar파일 생성까지
+
+FROM openjdk:18-jdk-alpine #배포 이미지
+COPY --from=awesome /spring-petclinic/target/spring-petclinic-2.7.0-SNAPSHOT.jar /svc/app/bin/spring-petclinic-2.7.0-SNAPSHOT.jar
+CMD ["java", "-jar", "-Dspring.profiles.active=mysql", "/svc/app/bin/spring-petclinic-2.7.0-SNAPSHOT.jar"]

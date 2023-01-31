@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-was
+  namespace: awesome
+  labels:
+    app: petclinic
+    tier: was
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: petclinic
+  template:
+    metadata:
+      labels:
+        app: petclinic
+        tier: was
+    spec:
+      containers:
+      - name: awesome-was
+        image: 946775837287.dkr.ecr.ap-northeast-2.amazonaws.com/web:1.0
+        ports:
+        - containerPort: 8080
+          name: petclinic-svc
+        - containerPort: 8009
+          name: ajp
