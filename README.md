@@ -11,7 +11,7 @@
 #### CSP
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"> <!--AWS-->
 #### OS
-<img src="https://img.shields.io/badge/Amazon Linux-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"> <!--amazon linux-->
+<img src="https://img.shields.io/badge/Amazon Linux 2-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"> <!--amazon linux-->
 #### Database
 <img src="https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=white"> <!--Mysql-->
 #### Container
@@ -23,6 +23,7 @@
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"> <!--Spring-->
 #### Team Collabolation Tool
 <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"> <!--Notion-->
+#### Drawing Tool
 <img src="https://img.shields.io/badge/Drawio-000000?style=flat-square&logo=Drawio&logoColor=white"> <!--Draw.io-->
 
 </br>
