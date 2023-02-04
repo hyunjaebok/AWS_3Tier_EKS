@@ -39,7 +39,8 @@
 </br>
 
 ## 📖 상세 내용 
-![eks](https://user-images.githubusercontent.com/110655823/216752572-8ab6d307-f933-4d82-8032-4acda217a1f3.png)
+<img src="https://user-images.githubusercontent.com/110655823/216752572-8ab6d307-f933-4d82-8032-4acda217a1f3.png"  width="700" height="500"/>
+
 ### Infra Architecture
 > - 관리자는 Local(Powershell)을 통해 k8s mgnt로 접속하여 EKS 환경에 웹 서비스를 배포 및 운영
 > - 고객은 route53에 등록된 도메인을 통해 웹 서비스 이용
